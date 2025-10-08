@@ -550,6 +550,160 @@ document.addEventListener('DOMContentLoaded', function() {
 </style>
 
 
+<!-- Matric Section -->
+<section class="matric-section">
+    <div class="matric-container">
+        <img src="metric1.jpeg" alt="Metric Look" class="matric-image">
+        <div class="matric-text">
+            <h2>🎓Matric Celebration Glam🎓</h2>
+            <p>Get your special night with our Matric Dance beauty and packages. Let us make you shine brighter than ever!</p>
+            
+        </div>
+    </div>
+
+    <!-- Two responsive windows with images -->
+    <div class="matric-gallery">
+        <div class="matric-box">
+            <img src="metric2.jpeg" alt="Metric Look 1">
+            <a href="https://wa.me/yourwhatsapplink" class="whatsapp-btn" target="_blank">
+                <i class="fab fa-whatsapp"></i> Book Now
+            </a>
+        </div>
+        <div class="matric-box">
+            <img src="metric3.jpeg" alt="Metric Look 2">
+            <a href="https://wa.me/yourwhatsapplink" class="whatsapp-btn" target="_blank">
+                <i class="fab fa-whatsapp"></i> Book Now
+            </a>
+        </div>
+    </div>
+</section>
+
+<style>
+.matric-section {
+    background: linear-gradient(to bottom, #8b0000, black);
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+}
+
+.matric-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: auto;
+    gap: 30px;
+}
+
+.matric-image {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+}
+
+.matric-text {
+    max-width: 500px;
+    text-align: left;
+}
+
+.matric-text h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem;
+    color: #FFD700;
+    margin-bottom: 15px;
+}
+
+.matric-text p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.matric-text button {
+    background-color: #FFD700;
+    color: #8b0000;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.matric-text button:hover {
+    background-color: #ffcc00;
+    transform: scale(1.05);
+}
+
+/* Gallery Section */
+.matric-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.matric-box {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.4);
+    transition: transform 0.3s ease;
+}
+
+.matric-box:hover {
+    transform: scale(1.03);
+}
+
+.matric-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.whatsapp-btn {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    background-color: #25D366;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-btn:hover {
+    background-color: #1ebe5b;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .matric-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .matric-text {
+        text-align: center;
+    }
+    .matric-gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+</style>
+
+</style>
+
 <!-- Featured Services Section -->
 <section class="featured-services">
     <div class="services-header">
@@ -774,230 +928,6 @@ document.addEventListener('DOMContentLoaded', function() {
     background-color: #e6005c;
 }
 </style>
-<!--Metrics dance section-->
-<!-- Metric Dance Section -->
-<section class="metric-dance">
-  <div class="dance-header">
-    <h2>Metric Dance </h2>
-    <p>  Metric Dance Style.</p>
-  </div>
-
-  <div class="dance-grid">
-    <!-- Dance Type 1 -->
-    <div class="dance-card">
-      <div class="icon">
-        <i class="fas fa-drum"></i>
-      </div>
-      <h3>Feel Your Moment</h3>
-        <img src="metric1.jpeg" alt="Metric Hair Style" style="width:100%; border-radius:10px; margin-bottom:15px;">
-        <p>Happy Day</p>  
-    </div>
-
-    <!-- Dance Type 2 -->
-    <div class="dance-card">
-      <div class="icon">
-        <i class="fas fa-music"></i>
-      </div>
-      <h3>Make-up ~ Soft Glam</h3>
-       <img src="metric2.jpeg" alt="Free style Hair Style" style="width:100%; border-radius:10px; margin-bottom:15px;">
-        <p>Happy Day</p>
-    </div>
-
-    <!-- Dance Type 3 -->
-    <div class="dance-card">
-      <div class="icon">
-        <i class="fas fa-heartbeat"></i>
-      </div>
-      <h3>Package 1</h3>
-      <img src="metric3.jpeg" alt="Skin Care" style="width:100%; border-radius:10px; margin-bottom:15px;">
-        <p>Happy Day</p>
-    </div>
-
-    <!-- Dance Type 4 -->
-    <div class="dance-card">
-      <div class="icon">
-        <i class="fas fa-users"></i>
-      </div>
-      <h3>Group Fusion</h3>
-      <img src="metric4.jpeg" alt="Happy Client" style="width:100%; border-radius:10px; margin-bottom:15px;">
-      <p>Join the crew and sync up with collective beats in team dance sessions.</p>
-    </div>
-
-    <!-- Dance Type 5 -->
-    <div class="dance-card">
-      <div class="icon">
-        <i class="fas fa-star"></i>
-      </div>
-      <h3>Package 2</h3>
-      <img src="" alt="Package 2" style="width:100%; border-radius:10px; margin-bottom:15px;">
-    </div>
-
-    <!-- Dance Type 6 -->
-    <div class="dance-card">
-      <div class="icon">
-        <i class="fas fa-child"></i>
-      </div>
-      <h3>Package 3</h3>
-      <img src="" alt="Package 3" style="width:100%; border-radius:10px; margin-bottom:15px;">
-      <p>Happy day</p>
-    </div>
-    <div class="dance-card">
-      <div class="icon">
-        <i class="fas fa-child"></i>
-      </div>
-      <!--style 7-->
-      <h3>Package 3</h3>
-      <img src="" alt="Package 3" style="width:100%; border-radius:10px; margin-bottom:15px;">
-      <p>Happy happy day</p>
-    </div>
-    <!--style 7-->
-    <div class="dance-card">
-      <div class="icon">
-        <i class="fas fa-child"></i>
-      </div>
-      <!--style 7-->
-      <h3>Package 3</h3>
-      <img src="" alt="Package 3" style="width:100%; border-radius:10px; margin-bottom:15px;">
-      <p>Happy happy day</p>
-    </div>
-  </div>
-</section>
-
-<style>
-/* Metric Dance Section */
-.metric-dance {
-  padding: 50px 20px;
-  background: linear-gradient(135deg, #800000, #000);
-  color: #fff;
-  text-align: center;
-  font-family: 'Poppins', sans-serif;
-}
-
-.dance-header h2 {
-  font-family: 'Playfair Display', serif;
-  font-size: 2.5rem;
-  color: #FFD700;
-  margin-bottom: 10px;
-}
-
-.dance-header p {
-  font-size: 1.2rem;
-  color: #fff;
-  margin-bottom: 30px;
-}
-
-.dance-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  padding: 0 10px;
-}
-
-.dance-card {
-  background: rgba(255, 255, 255, 0.1);
-  border: 2px solid #FFD700;
-  border-radius: 12px;
-  padding: 20px;
-  transition: transform 0.3s, background 0.3s;
-}
-
-.dance-card:hover {
-  transform: translateY(-10px);
-  background: rgba(255, 255, 255, 0.2);
-}
-
-.dance-card .icon {
-  font-size: 2.5rem;
-  color: #FFD700;
-  margin-bottom: 15px;
-}
-
-.dance-card h3 {
-  font-family: 'Playfair Display', serif;
-  font-size: 1.5rem;
-  color: #FFD700;
-  margin-bottom: 10px;
-}
-
-.dance-card p {
-  font-size: 1rem;
-  color: #fff;
-  line-height: 1.5;
-}
-
-/* Responsive Design */
-@media (max-width: 1024px) {
-  .metric-dance {
-    padding: 40px 15px;
-  }
-
-  .dance-header h2 {
-    font-size: 2.2rem;
-  }
-
-  .dance-header p {
-    font-size: 1.1rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .metric-dance {
-    padding: 30px 10px;
-  }
-
-  .dance-header h2 {
-    font-size: 2rem;
-  }
-
-  .dance-header p {
-    font-size: 1rem;
-  }
-
-  .dance-card {
-    padding: 15px;
-  }
-
-  .dance-card .icon {
-    font-size: 2rem;
-  }
-
-  .dance-card h3 {
-    font-size: 1.3rem;
-  }
-
-  .dance-card p {
-    font-size: 0.9rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .dance-header h2 {
-    font-size: 1.8rem;
-  }
-
-  .dance-header p {
-    font-size: 0.9rem;
-  }
-
-  .dance-card {
-    padding: 12px;
-  }
-
-  .dance-card .icon {
-    font-size: 1.8rem;
-  }
-
-  .dance-card h3 {
-    font-size: 1.2rem;
-  }
-
-  .dance-card p {
-    font-size: 0.85rem;
-  }
-}
-</style>
-
-
 
 <!-- Twist Hairstyles Section with Valentine's Theme -->
 <section class="portfolio valentines-theme">
@@ -1022,7 +952,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="card-image" style="background-image: url('havana_twists.jpg');"></div>
             <div class="card-content">
                 <h3>Havana/Marley Twists</h3>
-                <p><s>R650</s> <strong>R500</strong> ❤️</p>
+                <p><s>R625</s> <strong>R500</strong> ❤️</p>
                 <button class="whatsapp-button" onclick="bookOnWhatsApp('Havana/Marley Twists', 500)">
                     Book Now on WhatsApp
                 </button>
@@ -1033,7 +963,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="card-image" style="background-image: url('flat_twists1.jpg');"></div>
             <div class="card-content">
                 <h3>Flat Twists</h3>
-                <p><s>R455</s> <strong>R350</strong> ❤️</p>
+                <p><s>R437</s> <strong>R350</strong> ❤️</p>
                 <button class="whatsapp-button" onclick="bookOnWhatsApp('Flat Twists', 350)">
                     Book Now on WhatsApp
                 </button>
